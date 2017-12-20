@@ -1,0 +1,30 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image: url(images/fon2_min.jpg);
+    background-size: cover;
+    cursor: url(images/cursor.cur), pointer;
+    height: 100%;
+    overflow: hidden;
+}
+img{
+	position: absolute;
+    width: 130px;
+    height: 130px;
+	top:0;
+	left:0;
+}
+
+.button{
+    position: absolute;
+    width: 295px;
+    height: 75px;
+    top: 80%;
+    left: 77%;
+}
+#score, #timer, #pravila{
+	color: #FFFFFF;
+	text-align: center;
+}
