@@ -1,0 +1,15 @@
+
+aside{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+aside img{
+    width: 100%;
+}
+header h1{
+    text-align: center;
+}
+h2, h3 {
+    text-align: center;
+}
