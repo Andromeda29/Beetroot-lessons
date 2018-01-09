@@ -1,3 +1,5 @@
+// @TODO: отступы, сбрасывай дефолтные стили для инпутов, textarea
+
 body{
 overflow-x:hidden ;
     min-width: 320px;
@@ -413,6 +415,8 @@ padding-bottom: 35px;
 .social-icon-hexagon--be{
     background: #1769ff;
 }
+
+// @TODO: можно было менять только цвет бордера и не переопределять все стили, запись бы была более короткой и красивой
 .social-icon-hexagon--in:before{
     border-bottom: 15px solid #0976b4;
 }
