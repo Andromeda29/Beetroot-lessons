@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: #ea355a;
+}
+
+input {
+  background-color: #f0f0f0;
+  color: #7a7b7f;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.form__container {
+  font-family: Arial, Helvetica, sans-serif;
+}
