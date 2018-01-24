@@ -1,4 +1,7 @@
+
+// @TODO: у тебя поломалась верстка полностью, третья колоонка внизу. Поправь отступы.
 *{
+    // @TODO: если значение 0 - то пиксели не надо указывать
     margin: 0px;
     padding: 0px;
 }
@@ -8,6 +11,7 @@ body{
     font-size: 14px;
 }
 .container{
+    // @TODO: значение шиирины задано не верно так как даже на мобильном у тебя будет конейнер на пол экрана. используй width: 100%; max-width: 1000px; padding: 0 15px; - 'это например'
     width: 50%;
     margin: 0 auto;
 }
@@ -17,9 +21,12 @@ input{
     font-weight: 700;
     border: none;
     background: transparent;
+    // @TODO: 7em - это сколько пикселей
     font-size: 7em;
     color: #ec5a62;
 }
+
+// @TODO: переноси на новую строку все после каждой запятой
 :active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
@@ -76,6 +83,8 @@ h3{
 .avatar{
     display: inline-block;
 }
+
+// @TODO: все стили давай блоку-обертке а не самой картинке, у картинки должно быть все относителньо 
 .avatar img{
     border-radius: 50%;
 }
