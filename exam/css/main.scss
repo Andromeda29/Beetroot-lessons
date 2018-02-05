@@ -1,0 +1,20 @@
+//reset
+@import "parts/base/_reset.scss";
+
+//fonts
+@import "font-awesome.min.css";
+@import "ionicons.min.css";
+
+//base
+@import "parts/base/_colors.scss";
+@import "parts/base/_helpers.scss";
+@import "parts/base/_mixins.scss";
+@import "parts/base/_variables.scss";
+@import "parts/base/_base.scss";
+
+//sections
+@import "parts/sections/_header.scss";
+@import "parts/sections/_services.scss";
+@import "parts/sections/_abouts.scss";
+@import "parts/sections/_work.scss";
+@import "parts/sections/_footer.scss";

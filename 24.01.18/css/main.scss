@@ -1,0 +1,18 @@
+//reset
+@import "./parts/base/_reset.scss";
+
+//fonts
+@import url("./font-awesome.css");
+
+//BASE (variables, mixins,colors,helpers,base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+//sections
+@import "./parts/sections/_header.scss";
+@import "./parts/sections/_main-section.scss";
+@import "./parts/sections/_about.scss";
+@import "./parts/sections/_footer.scss";

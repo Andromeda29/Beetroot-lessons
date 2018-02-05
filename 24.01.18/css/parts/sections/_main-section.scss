@@ -1,0 +1,82 @@
+.main {
+  max-height: 675px;
+  width: 100%;
+  top: 0;
+  background: url("./../images/background.png") center no-repeat;
+  background-size: cover;
+  color: $darkgray;
+  &__wrapper {
+    max-width: 1200px;
+    min-height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  &__container {
+    max-width: 605px;
+    height: 100%;
+  }
+  &__title {
+    font-size: 53px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    padding-top: 225px;
+  }
+  &__btn {
+    width: 230px;
+    height: 55px;
+    border: none;
+    background-color: $pink;
+    color: $white;
+    font-size: 24px;
+    margin-bottom: 145px;
+  }
+}
+
+.subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 605px;
+  color:$darkgray;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 55px;
+  &__item {
+    &--blue {
+      color: $blue;
+    }
+    &--rotate {
+      transform: rotate(180deg);
+    }
+    &--pink {
+      color: $pink;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40px;
+  height: 100%;
+  margin-left: 320px;
+  vertical-align: bottom;
+  &__link {
+    width: 35px;
+    height: 35px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    color: $white;
+    font-size: 20px;
+    &:hover {
+      color: $pink;
+      border-color: $blue;
+    }
+  }
+}
