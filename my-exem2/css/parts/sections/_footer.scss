@@ -1,0 +1,50 @@
+.footer {
+  color: $white;
+  min-height: 260px;
+  &__socials {
+    margin: 0 auto;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+.content__title {
+  margin-bottom: 30px;
+}
+.facebook,
+.twitter,
+.linkedin,
+.instagram,
+.vimeo {
+  width: 27px;
+  height: 27px;
+  font-size: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  padding: 5px;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+
+.facebook {
+  background-color: $navy;
+}
+.twitter {
+  background-color: $blue;
+}
+.linkedin {
+  background-color: $darkblue;
+}
+.instagram {
+  background-color: $lightnavy;
+}
+.vimeo {
+  background-color: $lightblue;
+  margin-right: 0;
+}

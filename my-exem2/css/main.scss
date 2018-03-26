@@ -1,0 +1,25 @@
+//reset
+@import "./parts/base/_reset.scss";
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+//slider
+@import "./parts/_slick.scss";
+
+//BASE (variables, mixins,colors,helpers,base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+//sections
+@import "./parts/sections/_hello.scss";
+@import "./parts/sections/_portfolio.scss";
+@import "./parts/sections/_team.scss";
+@import "./parts/sections/_lets-talk.scss";
+@import "./parts/sections/_testimonials.scss";
+@import "./parts/sections/_contact.scss";
+@import "./parts/sections/_footer.scss";
+
